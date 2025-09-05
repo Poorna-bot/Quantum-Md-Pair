@@ -4,7 +4,7 @@ const fs = require('fs');
 let router = express.Router();
 const pino = require("pino");
 
-const botRepoUrl = "https://github.com/tharusha-md2008";
+const botRepoUrl = "https://github.com/Poorna-bot/Quantum-Md";
 const Wachannellink = "https://whatsapp.com/channel/0029Vb9LTRHInlqISdCfln45";
 
 const { default: makeWASocket, useMultiFileAuthState, delay, Browsers, makeCacheableSignalKeyStore, getAggregateVotesInPollMessage, DisconnectReason, WA_DEFAULT_EPHEMERAL, jidNormalizedUser, proto, getDevice, generateWAMessageFromContent, fetchLatestBaileysVersion, makeInMemoryStore, getContentType, generateForwardMessageContent, downloadContentFromMessage, jidDecode } = require('@whiskeysockets/baileys')
