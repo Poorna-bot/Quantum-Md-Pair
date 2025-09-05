@@ -5,7 +5,7 @@ const fs = require('fs');
 let router = express.Router();
 const pino = require("pino");
 
-const botRepoUrl = "https://github.com/tharusha-md2008";
+const botRepoUrl = "https://github.com/Poorna-bot/Quantum-Md";
 const Wachannellink = "https://whatsapp.com/channel/0029Vb9LTRHInlqISdCfln45";
 
 const {
